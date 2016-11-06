@@ -70,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
 
         for(int i = 0; i < numPost; i++){
             RelativeLayout.LayoutParams para = new RelativeLayout.LayoutParams(ActionBar.LayoutParams.WRAP_CONTENT, ActionBar.LayoutParams.WRAP_CONTENT);
-            Log.d("Layout"," "+(i));
             if(i == 0) para.addRule(RelativeLayout.BELOW,R.id.newpost);
             else para.addRule(RelativeLayout.BELOW,i);
 
