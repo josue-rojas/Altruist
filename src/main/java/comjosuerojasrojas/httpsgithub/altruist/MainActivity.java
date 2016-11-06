@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             para.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
             Button posts = new Button(this);
 
-            posts.setText("Post" + (i+1));
+            posts.setText(DataHandler.getName(i));
             posts.setId(i+1);
             posts.setOnClickListener(new View.OnClickListener() {
                 @Override

@@ -36,6 +36,10 @@ public class DataHandler{
         return TextUtils.split((getPerson(personID))[0],"/p");
     }
 
+    public static String getName(int personID){
+        return getPerson(personID)[2];
+    }
+
 
     public static void postPerson(String newPerson){
         data =data + newPerson;
