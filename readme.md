@@ -1,4 +1,4 @@
-#Altruict
+#Altruist
 This project was started in Lehman's 2016 Hackathon by [Josue](https://github.com/josuerojasrojas), Jose, Maria, Edgar, and Safa.
 
 
