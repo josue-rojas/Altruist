@@ -28,7 +28,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Make a Post"
+        android:text="+ Make a Post"
         android:id="@+id/newpost"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
