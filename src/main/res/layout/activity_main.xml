@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="comjosuerojasrojas.httpsgithub.altruist.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothes/p; Hello, My name is Jenny Clara and I am in desperate need of clothes. My apartment recently caught on fire and I lost all my belongings to it. At the moment I am living with a friend until I have enough money to move to my new home. If anyone out there would like to donate some clothes I will be forever grateful.Thank You So Much!; Jenny Clara; img/n Dress/pCinderella Nail Polish; Dear Santa Claus, My name is Joselyn Doe. I am 6 years old. I would like a dress and Cinderella nail polish.; Joselyn Doe; img/n Red Dress; My mother is recently is now unemployed and I have been helping her out with the extra bills. I donít have enough money to buy my mother a birthday present for her Birthday and I would really love for her to receive a special gift this year. I wanted to get my mother a red dress like the picture. She lost this dress when she moved one day and has never been able to get another like this. I think it will be a nice surprise to find one! Please help me help my moms! Thank You; Carlos; img/n Clothes/pBarbies; Hello Santa, I am a single mother to two beautiful girls Gisselle who is 8 and Laura who is 7. I work long hours as a food runner. It is very tiring work and I barely see my children but I have to do it. This year has been a tough one because they cut my hours at work and I am looking for another job. But this means I donít have money for Christmas  presents. I really need help. I donít want to fail my little girls this year. If anyone can help me, I would like some new clothes and perhaps a Barbie or two. It doesnít have to be new. It can be old or used. My girls deserve to have nice Christmas. Thank You.; Elisabeth; img /n Jeans/pShirts/pSneakers/pBook Bag/pToys/pBed Sheets; Dear Santa Claus, Hi how are you? My name is Narciso. I am 15 years old. My mother does not know that I am writing to you. She thinks no one will help us. My father died of Leukemia. He had it for a long time. He had to go to chemo therapy. It was very depressing seeing him go throuhg that. And one day he didn&apos;t wake up and I didn&apos;t get a chance to say bye or tell him how much I loved him as my father. My Mother is unemployed. I don&apos;t have that much clothes. I have to wear secnd hand clothes that fit me tight and short since I am really tall. Kids make fun of me. I would like jeans size 34/36, shirts 3x2, uptown sneakers size 9 1/2. And a digit camera. For my sister a bookbag. For my brother Toys and don&apos;t forget about moms bed sheets and blankets size queen. Please send us some things. Love; Narciso; img/n"
+        android:id="@+id/data"
+        android:layout_alignBottom="@+id/newpost"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make a Post"
+        android:id="@+id/newpost"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="newPost"
+        android:layout_weight="0.91"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"/>
+
+
+
+
+</RelativeLayout>
+</ScrollView>
