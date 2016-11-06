@@ -26,3 +26,6 @@ After clicking submit you will get to preview the post and finally hit submit if
 </p>
 
 The post will go to the bottom (although it should be in the top, a fix for later)
+
+
+still not done adding things here......
