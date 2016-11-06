@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:id="@+id/button"
+            android:id="@+id/help"
             android:layout_below="@+id/profilePicture"
             android:layout_centerHorizontal="true" />
 
@@ -41,18 +41,19 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="23dp"
             android:id="@+id/description"
-            android:layout_below="@id/button"
-            android:layout_marginTop="20dp"/>
+            android:layout_below="@+id/help"
+            android:layout_alignRight="@+id/profileName"
+            android:layout_alignEnd="@+id/profileName" />
 
         <TextView
             android:text="Someone's name here"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="100dp"
             android:id="@+id/profileName"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="10dp" />
+            android:layout_toRightOf="@+id/help"
+            android:layout_toEndOf="@+id/help" />
 
         <Button
             android:layout_width="wrap_content"
@@ -60,9 +61,10 @@
             android:text="Submit"
             android:id="@+id/submit"
             android:onClick="Submit"
-            android:layout_alignBottom="@+id/profileName"
             android:background="@android:color/holo_green_dark"
-             />
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/profileName"
+            android:layout_toStartOf="@+id/profileName" />
 
 
     </RelativeLayout>

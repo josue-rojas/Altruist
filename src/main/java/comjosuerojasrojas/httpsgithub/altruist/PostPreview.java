@@ -31,6 +31,8 @@ public class PostPreview extends AppCompatActivity {
         TextView userName = (TextView) findViewById(R.id.profileName);
         userName.setText("Thank You! from " + NewPost.name);
 
+        ((Button)findViewById(R.id.help)).setEnabled(false);
+
 
 
         // String newData = (TextUtils.join("/p",(needs.split(","))) + ";" + name + "/n
