@@ -2,6 +2,12 @@
   <img src="https://github.com/josuerojasrojas/Altruist/blob/master/src/main/Altruistlogo.png?raw=true" width="350"/>
 </p>
 
+<p align="center">
+<a href="https://docs.google.com/presentation/d/1d4aePotIoeieuPQXZslCSVyHghQZRAMHnaEQ3gRSggs/pub?start=false&loop=true&delayms=3000">Slide presentation</a>
+</p>
+
+
+
 This project was started in Lehman's 2016 Hackathon by [Josue](https://github.com/josuerojasrojas), [Jose](https://github.com/jmarrero09), Maria, Edgar, and Safa.
 
 
