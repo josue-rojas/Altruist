@@ -21,3 +21,6 @@ After clicking submit you will get to preview the post and finally hit submit if
 <p align="center">
   <img src="https://github.com/josuerojasrojas/Altruist/blob/master/ScreenShots/Screenshot_20161105-210622.png" width="250"/>
 </p>
+
+
+...still being edited
