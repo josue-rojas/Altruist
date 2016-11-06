@@ -1,4 +1,7 @@
-#Altruist
+<p align="center">
+  <img src="https://github.com/josuerojasrojas/Altruist/blob/master/src/main/Altruistlogo.png?raw=true" width="350"/>
+</p>
+
 This project was started in Lehman's 2016 Hackathon by [Josue](https://github.com/josuerojasrojas), Jose, Maria, Edgar, and Safa.
 
 
@@ -22,5 +25,4 @@ After clicking submit you will get to preview the post and finally hit submit if
   <img src="https://github.com/josuerojasrojas/Altruist/blob/master/ScreenShots/Screenshot_20161105-210622.png" width="200"/>
 </p>
 
-
-...still being edited
+The post will go to the bottom (although it should be in the top, a fix for later)
