@@ -2,7 +2,7 @@
   <img src="https://github.com/josuerojasrojas/Altruist/blob/master/src/main/Altruistlogo.png?raw=true" width="350"/>
 </p>
 
-This project was started in Lehman's 2016 Hackathon by [Josue](https://github.com/josuerojasrojas), Jose, Maria, Edgar, and Safa.
+This project was started in Lehman's 2016 Hackathon by [Josue](https://github.com/josuerojasrojas), [Jose](https://github.com/jmarrero09), Maria, Edgar, and Safa.
 
 
 Our main focus was not UI but rather the idea of how to make it easier for people in need to get help and those who want to help, make it easier to do so. We focused on donations of goods rather than monetary giving simply because it is safer, straight to the point, and in this way we know they are getting what the person needs rather than wondering. 
