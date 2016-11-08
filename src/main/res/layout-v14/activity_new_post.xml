@@ -9,15 +9,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="comjosuerojasrojas.httpsgithub.altruist.NewPost">
 
-    <EditText
-        android:layout_width="fill_parent"
-        android:id="@+id/description"
-        android:layout_height="wrap_content"
-        android:hint="Description"
-        android:singleLine="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/needs" />
 
     <EditText
         android:hint="Name"
@@ -29,7 +20,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/needs"
-        android:layout_alignEnd="@+id/needs" />
+        android:layout_alignEnd="@+id/needs"
+        android:layout_marginTop="10dp"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -42,6 +34,15 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:singleLine="true"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/description"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/needs" />
 
     <Button
         android:layout_width="wrap_content"
@@ -55,7 +56,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -69,16 +71,29 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Upload Photo"
         android:id="@+id/photo"
+        android:onClick="takePhoto"
+        android:layout_below="@+id/profilePicture"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:onClick="takePhoto"
+        android:maxWidth="150dp"
+        android:maxHeight="450dp"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilePicture"
+        android:src="@drawable/profile"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="takePhoto"/>
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

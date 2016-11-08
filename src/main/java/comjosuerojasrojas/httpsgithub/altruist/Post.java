@@ -2,6 +2,7 @@ package comjosuerojasrojas.httpsgithub.altruist;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AlertDialog;
@@ -54,8 +55,6 @@ public class Post extends AppCompatActivity {
         TextView userName = (TextView) findViewById(R.id.Name);
         userName.setText("Thank You from " + DataHandler.getPerson(numID-1)[2]);
 
-        Button helpButton = (Button)findViewById(R.id.help);
-        helpButton.setEnabled(false);
         /*
 
         helpButton.setOnClickListener(new View.OnClickListener(){
@@ -66,6 +65,10 @@ public class Post extends AppCompatActivity {
         */
     }
 
+    public void help(View v){
+        Intent intent = new Intent(this, Success.class);
+        startActivity(intent);
+    }
 
     public void setName(String name){
         this.name = name;

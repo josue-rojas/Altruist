@@ -8,6 +8,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class PostPreview extends AppCompatActivity {
@@ -33,6 +34,10 @@ public class PostPreview extends AppCompatActivity {
 
         ((Button)findViewById(R.id.help)).setEnabled(false);
 
+        //get the image if there is and make it to null for later use
+        if(DataHandler.profileSubmit != null)
+            ((ImageView)findViewById(R.id.profilePicture)).setImageBitmap(DataHandler.profileSubmit);
+        DataHandler.profileSubmit = null;
 
 
         // String newData = (TextUtils.join("/p",(needs.split(","))) + ";" + name + "/n

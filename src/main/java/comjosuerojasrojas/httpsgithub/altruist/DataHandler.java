@@ -1,15 +1,18 @@
 package comjosuerojasrojas.httpsgithub.altruist;
 
+import android.graphics.Bitmap;
 import android.text.TextUtils;
 import android.util.Log;
 
 /**
+ * this class has become where every data gets handle for changing of activities
  * Created by josuerojas on 11/5/16.
  */
 public class DataHandler{
 
     static String data;
     static String[] paragraph;
+    static Bitmap profileSubmit;
 
     public DataHandler(String data){
         this.data = data;
